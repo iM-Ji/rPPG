@@ -1,33 +1,58 @@
-rPPG Real-Time Heart Rate Monitor
-This project implements a remote Photoplethysmography (rPPG) system that estimates Heart Rate (BPM) and Blood Volume Pulse (BVP) from a live camera feed. It uses a PhysNet 3D-CNN architecture and features a clinical-grade visualization dashboard.
+To make the headings bigger and the layout more professional (similar to a high-quality GitHub repository), I've used Markdown level-1 (`#`) and level-2 (`##`) headers, along with clean code blocks and horizontal rules for separation.
 
-for more information about rPPG, please check out this repository:
-github.com/nasir6/rPPG
+Here is your updated **README.md**:
 
-Create and Activate Virtual Environment
-It is recommended to use a virtual environment to keep your system dependencies clean.
+---
 
-for Linux
-``
+# rPPG: Real-Time Heart Rate Monitor
+
+This project implements a **remote Photoplethysmography (rPPG)** system that estimates Heart Rate (BPM) and Blood Volume Pulse (BVP) from a live camera feed. It utilizes a **PhysNet 3D-CNN architecture** and features a clinical-grade visualization dashboard.
+
+> [!TIP]
+> For more in-depth information about the underlying rPPG research and models, please visit the original repository:
+> 🔗 **[github.com/nasir6/rPPG](https://github.com/nasir6/rPPG)**
+
+---
+
+## 🛠 1. Create and Activate Virtual Environment
+
+It is highly recommended to use a virtual environment to ensure system dependencies remain clean and isolated.
+
+### **For Linux (Fedora/Ubuntu)**
+
+```bash
 python3 -m venv rppg_env
 source rppg_env/bin/activate
-``
-for Windows
-``
+
+```
+
+### **For Windows**
+
+```bash
 python -m venv rppg_env
 rppg_env\Scripts\activate
-``
 
-Install Necessary Libraries
-Install the core dependencies for computer vision, deep learning (PyTorch), and signal processing.
+```
 
-``
+---
+
+## 📦 2. Install Necessary Libraries
+
+Install the core dependencies for computer vision, deep learning (PyTorch), and advanced signal processing.
+
+```bash
 pip install torch torchvision numpy opencv-python matplotlib scipy pillow
-``
 
-Run the System
-Start the application by pointing to your camera source.
+```
 
-``
+---
+
+## 🚀 3. Run the System
+
+Start the application by targeting your local camera source. Ensure you are in a well-lit environment for the best detection results.
+
+```bash
 python3 run.py --source 0 --frame-rate 30
-``
+
+```
+
