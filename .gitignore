@@ -1,0 +1,21 @@
+# Heavy data files — exclude
+pure_processed_192.h5
+*.npy
+
+# Virtual environment — never upload
+rppg_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Keep these — small enough for GitHub
+# best_model.pth       (222KB — fine)
+# models.py            (keep)
+# train.py             (keep)
+# run.py               (keep)
+# capture_frames.py    (keep)
+# process_mask.py      (keep)
+# plot_cont.py         (keep)
+# preprocess.py        (keep)

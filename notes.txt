@@ -1,0 +1,9 @@
+4/19/26
+downloaded, and started optimizing
+4/28/26
+started training with PURE dataset
+5/10/26
+finished training with PURE dataset
+5/13/26
+evaluation in the trained model
+5/19/26
