@@ -1,7 +1,3 @@
-To make the headings bigger and the layout more professional (similar to a high-quality GitHub repository), I've used Markdown level-1 (`#`) and level-2 (`##`) headers, along with clean code blocks and horizontal rules for separation.
-
-Here is your updated **README.md**:
-
 ---
 
 # rPPG: Real-Time Heart Rate Monitor
