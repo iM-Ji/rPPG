@@ -1,5 +1,3 @@
----
-
 # rPPG: Real-Time Heart Rate Monitor
 
 This project implements a **remote Photoplethysmography (rPPG)** system that estimates Heart Rate (BPM) and Blood Volume Pulse (BVP) from a live camera feed. It utilizes a **PhysNet 3D-CNN architecture** and features a clinical-grade visualization dashboard.
